@@ -1,7 +1,7 @@
 # or-tools-lambda
 
-Deploy Python applications using [Google or-tools](https://developers.google.com/optimization/)
-to [AWS Lambda](https://aws.amazon.com/lambda).
+Package Python applications using [Google or-tools](https://developers.google.com/optimization/)
+for [AWS Lambda](https://aws.amazon.com/lambda).
 
 Instead of creating and configuring your own EC2 instance to work around the 
 installations requirements to run the application on Lambda, `or-tools-lambda` 

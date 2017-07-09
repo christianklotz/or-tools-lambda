@@ -11,8 +11,11 @@ uses Docker to create a deployable package locally.
 ## Prerequisites
 
 You'll need to have [Docker](https://www.docker.com) installed. Clone the repo 
-to run the contained sample handler. To make this work with your existing Python
-project, simply add `Dockerfile` and `package.sh`.
+to package the `handler.py` sample function that includes a basic program using
+`or-tools` .
+
+To make this work with your existing Python project, simply add `Dockerfile` 
+and `package.sh`.
 
 
 ## Build

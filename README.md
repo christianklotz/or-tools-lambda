@@ -7,6 +7,8 @@ Instead of creating and configuring your own EC2 instance to work around the
 installations requirements to run the application on Lambda, `or-tools-lambda` 
 uses Docker to create a deployable package locally.
 
+This project is based on the discussion in https://github.com/google/or-tools/issues/259.
+
 
 ## Prerequisites
 

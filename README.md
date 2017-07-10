@@ -3,8 +3,11 @@
 Package Python applications using [Google or-tools](https://developers.google.com/optimization/)
 for [AWS Lambda](https://aws.amazon.com/lambda).
 
+[Google Optimization Tools (OR-Tools)](https://developers.google.com/optimization/) is a fast and portable software suite for solving combinatorial optimization problems.
+
 Instead of creating and configuring your own EC2 instance to work around the 
-installations requirements to run the application on Lambda, `or-tools-lambda` 
+installations requirements to run the application on Lambda (for example, `or-tools` 
+doesn't qualify for inclusion in pip due to some of its dependencies), `or-tools-lambda` 
 uses Docker to create a deployable package locally.
 
 This project is based on the discussion in https://github.com/google/or-tools/issues/259.

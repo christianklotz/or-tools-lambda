@@ -10,7 +10,7 @@ ENV PYTHON_INSTALL_DIR /opt/python3
 
 RUN true \
   && yum -q -e 0 -y update || true \
-  && yum -q -e 0 -y install gcc zlib-devel openssl-devel bzip2-devel readline-devel findutils zip || true \
+  && yum -q -e 0 -y install deltarpm tar.x86_64 make gzip gunzip gcc zlib-devel openssl-devel bzip2-devel readline-devel findutils zip || true \
   && yum -q -e 0 -y clean all \
   && curl -fsSL "$PYTHON_DOWNLOAD_URL" -o python.tar.gz \
   && echo "$PYTHON_DOWNLOAD_SHA256 python.tar.gz" | sha256sum -c - \
